@@ -1,3 +1,10 @@
+/* Color Scheme:
+#1F1E1F - Dark Grey
+#563010 - Brown
+#F5F5F5 - White
+#641202 - Red
+#E09515 - Orange */
+
 body {
   background-color: #641202;
 }
@@ -11,14 +18,14 @@ h1 {
 /* The navigation menu */
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #1F1E1F;
 }
 
 /* Navigation links */
 .navbar a {
   float: left;
   font-size: 16px;
-  color: white;
+  color: #F5F5F5;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -35,7 +42,7 @@ h1 {
   font-size: 16px;
   border: none;
   outline: none;
-  color: white;
+  color: #F5F5F5;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -44,7 +51,7 @@ h1 {
 
 /* Add a red background color to navigation links on hover */
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: #A76B09;
+  background-color: #E09515;
 }
 
 /* Style the subnav content - positioned absolute */
@@ -52,7 +59,7 @@ h1 {
   display: none;
   position: absolute;
   left: 0;
-  background-color: #A76B09;
+  background-color: #E09515;
   width: inherit;
   z-index: 1;
   padding: 10px;
@@ -61,14 +68,14 @@ h1 {
 /* Style the subnav links */
 .subnav-content a {
   float: left;
-  color: white;
+  color: #F5F5F5;
   text-decoration: none;
 }
 
 /* Add a grey background color on hover */
 .subnav-content a:hover {
-  background-color: #FFDEA9;
-  color: black;
+  background-color: #563010;
+  color: #1F1E1F;
 }
 
 /* When you move the mouse over the subnav container, open the subnav content */
@@ -80,7 +87,7 @@ h1 {
 	width: 50%; 
 	padding: 35px; 
 	border: 5px;
-	border-color: #333;
+	border-color: #1F1E1F;
 	border-style: outset;
 	margin: 30px;
 	
@@ -90,16 +97,16 @@ h1 {
 	border: 5px;
 	padding: 35px;
 	border: 5px;
-	border-color: #333; 
+	border-color: #1F1E1F; 
 	margin-left: 30%; 
 	margin-right: 30%; 
 }
 a:link{
-	background-color: #333; 
+	background-color: #1F1E1F; 
 }
 .objtitle{
 	font-size: 40px; 
-	color: white;
+	color: #F5F5F5;
 	width: 100%
 	margin
 	
@@ -107,7 +114,7 @@ a:link{
 .objimg{ 
 	padding: 15px; 
 	border: 5px;
-	border-color: #333; 
+	border-color: #1F1E1F; 
 	margin: 15px;
 }
 .obj{
