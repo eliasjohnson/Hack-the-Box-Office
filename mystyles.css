@@ -85,20 +85,21 @@ h1 {
 }
 .pagedescription{
 	float: left;
-	width: 50%; 
+	width: 70%; 
 	padding: 35px; 
 	border: 5px;
-	border-color: #1F1E1F;
-	border-style: outset;
+	border-color: #E09515;
+	border-style: solid;
   text-align: center;
+  color:#F5F5F5;
+  font-size: 15pt;
   position: absolute;
-  top: 75%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
 	
 }
 .featured{
-	float: center; 
 	border: 5px;
 	padding: 35px;
 	border: 5px;
@@ -112,9 +113,7 @@ a:link{
 .objtitle{
 	font-size: 40px; 
 	color: #F5F5F5;
-	width: 100%
-	margin
-	
+	width: 100%;	
 }
 .objimg{ 
 	padding: 15px; 
@@ -159,4 +158,20 @@ a:link{
 
 .footer{
   color: #1F1E1F;
+}
+
+.moviedesc p{
+	float: left;
+	width: 70%; 
+	padding: 35px; 
+	border: 5px;
+	border-color: #E09515;
+	border-style: solid;
+  text-align: center;
+  color:#F5F5F5;
+  font-size: 15pt;
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
