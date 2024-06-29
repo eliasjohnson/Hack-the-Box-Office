@@ -1,4 +1,5 @@
 <?php
+
 // Check if form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Collect form data
@@ -11,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "All fields are required";
     } else {
         // Connect to database (assuming MySQL here)
-        $conn = new mysqli("localhost", "username", "password", "database");
+        $conn = new mysqli("HackTheBoxOffice", "Hackers", "1234", "HackTheBoxOffice");
         
         // Check connection
         if ($conn->connect_error) {
@@ -22,10 +23,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $hashed_password = password_hash($password, PASSWORD_DEFAULT);
         
         // Insert data into database
-        $sql = "INSERT INTO users (username, email, password) VALUES ('$username', '$email', '$hashed_password')";
-        if ($conn->query($sql) === TRUE) {
+        $sql = "INSERT INTO user (username, email, password) VALUES ('$username', '$email', '$hashed_password')";
+        if ($conn->query($sql) === TRUE) 
             echo "Registration successful";
-        } else {
+        else {
             echo "Error: " . $sql . "<br>" . $conn->error;
         }
         
