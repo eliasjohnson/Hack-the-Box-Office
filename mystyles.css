@@ -1,12 +1,11 @@
 body {
-  background-color: #dda74f;
+  background-color: #641202;
 }
 
 h1 {
-  color: #333;
+  color: #E09515;
   margin-left: 20px;
   font-family: "fantasy", "Copperplate", "serif";
-
 }
 
 /* The navigation menu */
@@ -119,5 +118,33 @@ a:link{
 	display: block; 
 	margin-left: auto;
 	margin-right: auto;
-	
+  text-align: center;
+}
+
+.login{
+  border-style: solid;
+  border-color: #E09515;
+  margin: 200px;
+  text-align: center;
+  color: #F5F5F5;
+  font-size: 20px;
+}
+
+.button1 {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #E09515;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.input{
+  margin: 3px;
+}
+
+.footer{
+  color: #1F1E1F;
 }
