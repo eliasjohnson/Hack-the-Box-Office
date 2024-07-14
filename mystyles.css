@@ -83,9 +83,17 @@ h1 {
 .subnav:hover .subnav-content {
   display: block;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .pagedescription{
-	float: left;
-	width: 70%; 
+	/* float: left;
+	width: 70%;  */
+  margin: 20px;
 	padding: 35px; 
 	border: 5px;
 	border-color: #E09515;
@@ -93,12 +101,8 @@ h1 {
   text-align: center;
   color:#F5F5F5;
   font-size: 15pt;
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-	
 }
+
 .featured{
 	border: 5px;
 	padding: 35px;
@@ -107,14 +111,17 @@ h1 {
 	margin-left: 30%; 
 	margin-right: 30%; 
 }
+
 a:link{
 	background-color: #1F1E1F; 
 }
+
 .objtitle{
 	font-size: 40px; 
 	color: #F5F5F5;
 	width: 100%;	
 }
+
 .objimg{ 
 	padding: 15px; 
 	border: 5px;
@@ -161,17 +168,13 @@ a:link{
 }
 
 .moviedesc p{
-	float: left;
-	width: 70%; 
-	padding: 35px; 
+	/* float: left; */
+	/* width: 70%;  */
+	/* padding: 35px;  */
 	border: 5px;
 	border-color: #E09515;
 	border-style: solid;
   text-align: center;
   color:#F5F5F5;
   font-size: 15pt;
-  position: absolute;
-  top: 58%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
