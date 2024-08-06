@@ -75,6 +75,7 @@ input{
   width: inherit;
   z-index: 1;
   padding: 10px;
+  margin-left: 80px;
 }
 
 /* Style the subnav links */
