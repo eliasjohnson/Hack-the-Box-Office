@@ -121,6 +121,24 @@ input{
   text-align: center;
 }
 
+.movie-content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.info {
+  border: solid 5px;
+  border-color: #E09515;
+  padding: 5px;
+  margin: 5px;
+  background-color: #F5F5F5;
+  width: 40%;
+  text-align: center;
+  font-size: 20px;
+  color: #1F1E1F;
+}
 
 .container {
   display: flex;
